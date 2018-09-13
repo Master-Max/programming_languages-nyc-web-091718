@@ -14,5 +14,5 @@ def reformat_languages(languages)
     end
   end
   languages.collect do |x,y|
-    
+  end
 end
