@@ -16,7 +16,7 @@ def reformat_languages(languages)
   languages.collect do |x,y|
     y.collect do |w,z|
       hash[w] = z
-      hash[w] => {:type => x}
+      hash[w] = {:type => x}
     end
   end
   puts "===++++++++++==="
