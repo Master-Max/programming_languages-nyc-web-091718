@@ -1,16 +1,3 @@
-def reformat_languages3(languages)
-  styleHash = {}
-  languages.each do |x,y|
-    y.each do |w,z|
-      styleHash = {w => z,{:style => [x]}}
-    end
-  end
-  puts "===+++==="
-  puts styleHash
-
-end
-
-
 def reformat_languages(languages)
   puts "===Start==="
   hash = {}
