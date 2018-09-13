@@ -6,6 +6,10 @@ def reformat_languages(languages)
         :style => [x]
         }
       }
+    end
+  end
+  puts "===+++==="
+  puts styleHash
 
 end
 
