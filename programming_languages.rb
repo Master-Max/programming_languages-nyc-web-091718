@@ -2,10 +2,7 @@ def reformat_languages(languages)
   styleHash = {}
   languages.each do |x,y|
     y.each do |w,z|
-      styleHash = {w => z,{
-        :style => [x]
-        }
-      }
+      styleHash = {w => z,{:style => [x]}}
     end
   end
   puts "===+++==="
@@ -23,6 +20,7 @@ def reformat_languages2(languages)
     y.collect do |w,z|
       puts "==#{w} || #{w.class}"
       puts "====#{z} || #{z.class}"
+      puts "====#{z.value} || #{z.value.class}"
       z.collect do |a,b|
         puts "======#{a} || #{a.class}"
         puts "========#{b} || #{b.class}"
