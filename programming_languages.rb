@@ -17,4 +17,5 @@ def reformat_languages(languages)
     y.collect do |w,z|
       hash[w] = z
   end
+  puts hash
 end
