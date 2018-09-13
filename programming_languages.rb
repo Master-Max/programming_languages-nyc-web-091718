@@ -27,13 +27,4 @@ def reformat_languages(languages)
       end
     end
   end
-  languages.collect do |x,y|
-    y.collect do |w,z|
-      hash[w] = z,{:style => [x]}
-      #hash[w] = {:style => x}
-    end
-  end
-  puts "===++++++++++==="
-  puts hash
-  hash
 end
