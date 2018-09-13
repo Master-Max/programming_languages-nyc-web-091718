@@ -13,5 +13,6 @@ def reformat_languages(languages)
       end
     end
   end
-  hash = languages.select 
+  hash = languages.select do |x,y|
+    
 end
