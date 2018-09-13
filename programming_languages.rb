@@ -7,7 +7,7 @@ def reformat_languages(languages)
     y.collect do |w,z|
       puts "==#{w} || #{w.class}"
       puts "====#{z} || #{z.class}"
-      #puts "====#{z.value} || #{z.value.class}"
+      puts "====#{z.value} || #{z.value.class}"
       z.collect do |a,b|
         puts "======#{a} || #{a.class}"
         puts "========#{b} || #{b.class}"
