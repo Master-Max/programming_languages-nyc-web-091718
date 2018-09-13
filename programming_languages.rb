@@ -11,7 +11,7 @@ def reformat_languages(languages)
       z.collect do |a,b|
         puts "A: ======#{a} || #{a.class}"
         puts "B: ========#{b} || #{b.class}"
-        hash[w] = w =>{a => b , :style => [x]}
+        hash[] = w => {a => b , :style => [x]}
       end
     end
   end
