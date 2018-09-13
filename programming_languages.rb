@@ -1,4 +1,16 @@
 def reformat_languages(languages)
+  styleHash = {}
+  languages.each do |x,y|
+    y.each do |w,z|
+      styleHash = {w => z,{
+        :style => [x]
+        }
+      }
+
+end
+
+
+def reformat_languages2(languages)
   puts "===Start==="
   hash = {}
   #languages.collect {|x,y| puts"#{x.class} || #{y.class}"}
