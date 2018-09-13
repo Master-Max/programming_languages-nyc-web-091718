@@ -18,5 +18,6 @@ def reformat_languages(languages)
       hash[w] = z
     end
   end
+  puts "===++++++++++==="
   puts hash
 end
