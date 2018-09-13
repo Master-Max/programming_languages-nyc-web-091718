@@ -13,4 +13,5 @@ def reformat_languages(languages)
       end
     end
   end
+  hash = languages.select 
 end
