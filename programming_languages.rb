@@ -17,6 +17,8 @@ def reformat_languages(languages)
   end
   puts "=====+++++====="
   puts languages
+  puts "=====-----====="
   puts hash
+  puts "=====+++++====="
   hash
 end
