@@ -5,7 +5,7 @@ def reformat_languages(languages)
   languages.collect do |x,y|
     puts "#{x} || #{x.class}"
     y.collect do |w,z|
-      puts "==#{w} || #{z.class}"
+      puts "==#{w} || #{w.class}"
       puts "====#{z} || #{z.class}"
       z.collect do |a,b|
         puts "======#{a} || #{a.class}"
@@ -13,6 +13,6 @@ def reformat_languages(languages)
       end
     end
   end
-  hash = languages.select do |x,y|
+  languages.collect do |x,y|
     
 end
